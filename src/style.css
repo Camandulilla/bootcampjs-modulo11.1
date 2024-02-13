@@ -1,13 +1,6 @@
 body {
-  background-image: linear-gradient(
-    to bottom,
-    #051937,
-    #001940,
-    #001749,
-    #001551,
-    #041258
-  );
   height: 100vh;
+  background-color: #001551;
 }
 
 #button {
@@ -37,11 +30,6 @@ h3 {
   color: aliceblue;
 }
 
-h5 {
-  font-family: "Courier New", Courier, monospace;
-  color: aliceblue;
-}
-
 #app {
   display: flex;
   justify-content: center;
@@ -55,6 +43,10 @@ h5 {
   align-items: center;
 }
 
+#contenedor2 {
+  margin-top: 100px;
+}
+
 #cajaTexto {
   width: 600px;
   height: 35px;
@@ -66,7 +58,7 @@ h5 {
 }
 
 #general {
-  border: 20px solid aliceblue;
+  border: 10px solid aliceblue;
   padding: 20px;
   height: 680px;
   border-radius: 10%;
